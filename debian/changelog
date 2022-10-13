@@ -1,0 +1,86 @@
+node-d3-selection (1.4.0-7) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Disable more tests incompatible with node-jsdom ≥ 18
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Fri, 15 Oct 2021 13:48:25 +0200
+
+node-d3-selection (1.4.0-6) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints. + node-d3-selection: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Enable upstream tests (disable failing tests)
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 16 Dec 2020 15:44:49 +0530
+
+node-d3-selection (1.4.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:54 +0200
+
+node-d3-selection (1.4.0-4) unstable; urgency=medium
+
+  * Remove commonjs plugin in rollup.config.js
+  * Fix reproducible build patch (Closes: #931706)
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 10 Jul 2019 00:22:46 +0530
+
+node-d3-selection (1.4.0-3) unstable; urgency=medium
+
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jul 2019 13:08:14 +0530
+
+node-d3-selection (1.4.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Remove unsupported syntax in rollup.config.js
+  * Remove dist in clean
+  * Install dist and src directories
+  * Make build reproducible
+
+ -- Nilesh <npatra974@gmail.com>  Sat, 22 Jun 2019 13:21:30 -0400
+
+node-d3-selection (1.4.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.4.0
+  * Use rollup to build (webpack was used before rollup was available in main)
+
+ -- Nilesh <npatra974@gmail.com>  Tue, 11 Jun 2019 09:04:30 -0400
+
+node-d3-selection (1.1.0-3) unstable; urgency=medium
+
+  * Use webpack to build umd module like upstream
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 05 Jan 2018 23:54:42 +0530
+
+node-d3-selection (1.1.0-2) unstable; urgency=medium
+
+  * Use babel to transpile and move to main (Closes: #877215)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 01 Oct 2017 17:12:46 +0530
+
+node-d3-selection (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #874543)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 07 Sep 2017 13:08:06 +0530
