@@ -1,2 +1,3 @@
 reproducible_build.diff
 disable-failing-test.patch
+fix-for-rollup-3.patch
